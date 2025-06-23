@@ -26,10 +26,9 @@ export function renderUi(products) {
         <div class="card-body">
           <h2 class="card-title text-lg font-bold">${title}</h2>
           <p class="description text-sm">${description}</p>
-          <div class="rating text-yellow-500 text-sm">⭐ ${rating} (${stock} ta sharh)</div>
-          <div class="price font-semibold text-green-600">${fullPrice}</div>
-          <div class="description-price line-through text-red-500">${discountPrice}</div>
-          
+          <div class="rating  text-sm">⭐ ${rating} (${stock} ta sharh)</div>
+          <div class="price font-semibold ">${fullPrice}</div>
+          <div class="description-price line-through opacity-40">${discountPrice}</div>
           <div class="card-actions justify-end">
             <button class="buy-buttone btn btn-primary">Buy</button>
           </div>
